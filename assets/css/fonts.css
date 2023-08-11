@@ -1,0 +1,128 @@
+/* Webfont: Lato-Regular */@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+		 url('../fonts/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Lato-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	font-weight: 400;
+}
+
+/* Webfont: Lato-Semibold */@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Semibold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-Semibold.woff2') format('woff2'), /* Modern Browsers */
+		 url('../fonts/Lato-Semibold.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Lato-Semibold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	font-weight: 600;
+}
+
+/* Webfont: Lato-Bold */@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+		 url('../fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Lato-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	font-weight: 700;
+}
+
+/* Webfont: Lato-Heavy (Black) */@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Lato';
+	src: url('../fonts/Lato-Heavy.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-Heavy.woff2') format('woff2'), /* Modern Browsers */
+		 url('../fonts/Lato-Heavy.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Lato-Heavy.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	font-weight: 900;
+}
+
+/* raleway-800 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/raleway-v28-latin-800.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/raleway-v28-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/raleway-v28-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+		 url('../fonts/raleway-v28-latin-800.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+		 url('../fonts/raleway-v28-latin-800.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+/* Icons font */
+
+@font-face {
+	font-family: 'icomoon';
+	src:  url('../fonts/icomoon.eot?v4dgea');
+	src:  url('../fonts/icomoon.eot?v4dgea#iefix') format('embedded-opentype'),
+	url('../fonts/icomoon.ttf?v4dgea') format('truetype'),
+	url('../fonts/icomoon.woff?v4dgea') format('woff'),
+	url('../fonts/icomoon.svg?v4dgea#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add-file:before {
+	content: "\e902";
+}
+.icon-search:before {
+	content: "\e900";
+}
+.icon-percent:before {
+	content: "\e901";
+}
+.icon-mail:before {
+	content: "\e903";
+}
+.icon-money:before {
+	content: "\e904";
+}
+.icon-vk:before {
+	content: "\e908";
+}
+.icon-web-money:before {
+	content: "\e909";
+}
+.icon-qiwi:before {
+	content: "\e90a";
+}
+.icon-file:before {
+	content: "\e90b";
+}
+.icon-arrow:before {
+	content: "\e90c";
+}
